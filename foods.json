@@ -1,0 +1,32 @@
+[
+  {
+    "restaurant": "Chick-fil-A",
+    "item": "3 Count Tenders",
+    "carbs": 11
+  },
+  {
+    "restaurant": "Chick-fil-A",
+    "item": "Medium Fries",
+    "carbs": 45
+  },
+  {
+    "restaurant": "McDonald's",
+    "item": "Big Mac",
+    "carbs": 46
+  },
+  {
+    "restaurant": "McDonald's",
+    "item": "Large Fries",
+    "carbs": 66
+  },
+  {
+    "restaurant": "Taco Bell",
+    "item": "Crunchwrap Supreme",
+    "carbs": 71
+  },
+  {
+    "restaurant": "Dunkin'",
+    "item": "Bacon Egg and Cheese English Muffin",
+    "carbs": 34
+  }
+]
