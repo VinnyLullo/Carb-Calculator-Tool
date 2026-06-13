@@ -1,84 +1,158 @@
-let foods = [
-  {
-    restaurant: "Chick-fil-A",
-    item: "3 Count Tenders",
-    carbs: 11
-  },
-  {
-    restaurant: "Chick-fil-A",
-    item: "Medium Fries",
-    carbs: 45
-  },
-  {
-    restaurant: "McDonald's",
-    item: "Big Mac",
-    carbs: 46
-  },
-  {
-    restaurant: "McDonald's",
-    item: "Large Fries",
-    carbs: 66
-  },
-  {
-    restaurant: "Taco Bell",
-    item: "Crunchwrap Supreme",
-    carbs: 71
-  },
-  {
-    restaurant: "Dunkin'",
-    item: "Bacon Egg and Cheese English Muffin",
-    carbs: 34
-  }
-];
-
+let foods = [];
 let meal = [];
+let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
+let savedMeals = JSON.parse(localStorage.getItem("savedMeals")) || [];
 
-searchInput.addEventListener("input", () => {
-  const searchTerm = searchInput.value.toLowerCase();
+const restaurantSelect = document.getElementById("restaurantSelect");
+const searchInput = document.getElementById("searchInput");
+const foodResults = document.getElementById("foodResults");
+const mealList = document.getElementById("mealList");
+const totalCarbsElement = document.getElementById("totalCarbs");
+const ratioInput = document.getElementById("ratioInput");
+const calculateBtn = document.getElementById("calculateBtn");
+const insulinResult = document.getElementById("insulinResult");
+
+const favoritesSection = document.createElement("div");
+const savedMealsSection = document.createElement("div");
+
+document.querySelector(".container").insertBefore(favoritesSection, document.querySelector("h2"));
+document.querySelector(".container").insertBefore(savedMealsSection, document.querySelector("h2"));
+
+fetch("./data/restaurants.json")
+  .then(response => response.json())
+  .then(files => Promise.all(files.map(file => fetch(file).then(response => response.json()))))
+  .then(results => {
+    foods = results.flat();
+    populateRestaurantDropdown();
+    renderSearchResults();
+    renderFavorites();
+    renderSavedMeals();
+  })
+  .catch(error => {
+    console.error("Error loading food data:", error);
+    alert("Food data did not load.");
+  });
+
+function populateRestaurantDropdown() {
+  restaurantSelect.innerHTML = `<option value="all">All Restaurants</option>`;
+
+  const restaurants = [...new Set(foods.map(food => food.restaurant))].sort();
+
+  restaurants.forEach(restaurant => {
+    const option = document.createElement("option");
+    option.value = restaurant;
+    option.textContent = restaurant;
+    restaurantSelect.appendChild(option);
+  });
+}
+
+searchInput.addEventListener("input", renderSearchResults);
+restaurantSelect.addEventListener("change", renderSearchResults);
+
+function renderSearchResults() {
+  const searchTerm = searchInput.value.toLowerCase().trim();
+  const selectedRestaurant = restaurantSelect.value;
 
   foodResults.innerHTML = "";
 
-  const filteredFoods = foods.filter(food =>
-    food.item.toLowerCase().includes(searchTerm)
-  );
+  const filteredFoods = foods.filter(food => {
+    const matchesSearch = searchTerm === "" || food.item.toLowerCase().includes(searchTerm);
+    const matchesRestaurant = selectedRestaurant === "all" || food.restaurant === selectedRestaurant;
+
+    return matchesSearch && matchesRestaurant;
+  });
 
   filteredFoods.forEach(food => {
-    const div = document.createElement("div");
-    div.className = "food-item";
+    foodResults.appendChild(createFoodCard(food));
+  });
+}
 
-    div.innerHTML = `
-      <strong>${food.item}</strong><br>
-      ${food.restaurant}<br>
-      ${food.carbs}g carbs
-      <button>Add</button>
-    `;
+function createFoodCard(food) {
+  const div = document.createElement("div");
+  div.className = "food-item";
 
-    div.querySelector("button").addEventListener("click", () => {
-      meal.push(food);
-      renderMeal();
+  const isFavorite = favorites.includes(food.id);
+
+  div.innerHTML = `
+    <strong>${food.item}</strong><br>
+    ${food.restaurant}<br>
+    ${food.carbs}g carbs<br>
+    Qty:
+    <input type="number" min="1" value="1" class="qty-input">
+    <button class="add-btn">Add</button>
+    <button class="fav-btn">${isFavorite ? "★" : "☆"}</button>
+  `;
+
+  div.querySelector(".add-btn").addEventListener("click", () => {
+    const qty = Number(div.querySelector(".qty-input").value);
+
+    meal.push({
+      ...food,
+      quantity: qty,
+      totalCarbs: food.carbs * qty
     });
 
-    foodResults.appendChild(div);
+    renderMeal();
   });
-});
+
+  div.querySelector(".fav-btn").addEventListener("click", () => {
+    toggleFavorite(food.id);
+  });
+
+  return div;
+}
+
+function toggleFavorite(foodId) {
+  if (favorites.includes(foodId)) {
+    favorites = favorites.filter(id => id !== foodId);
+  } else {
+    favorites.push(foodId);
+  }
+
+  localStorage.setItem("favorites", JSON.stringify(favorites));
+  renderFavorites();
+  renderSearchResults();
+}
+
+function renderFavorites() {
+  favoritesSection.innerHTML = "<h2>Favorites</h2>";
+
+  const favoriteFoods = foods.filter(food => favorites.includes(food.id));
+
+  if (favoriteFoods.length === 0) {
+    favoritesSection.innerHTML += "<p>No favorites yet.</p>";
+    return;
+  }
+
+  favoriteFoods.forEach(food => {
+    favoritesSection.appendChild(createFoodCard(food));
+  });
+}
 
 function renderMeal() {
   mealList.innerHTML = "";
-
   let totalCarbs = 0;
 
-  meal.forEach(food => {
-    totalCarbs += food.carbs;
+  meal.forEach((food, index) => {
+    totalCarbs += food.totalCarbs;
 
     const div = document.createElement("div");
     div.className = "meal-item";
 
-    div.textContent = `${food.item} - ${food.carbs}g carbs`;
+    div.innerHTML = `
+      ${food.quantity} × ${food.item} = ${food.totalCarbs}g carbs
+      <button onclick="removeFromMeal(${index})">Remove</button>
+    `;
 
     mealList.appendChild(div);
   });
 
   totalCarbsElement.textContent = totalCarbs;
+}
+
+function removeFromMeal(index) {
+  meal.splice(index, 1);
+  renderMeal();
 }
 
 calculateBtn.addEventListener("click", () => {
@@ -90,7 +164,62 @@ calculateBtn.addEventListener("click", () => {
     return;
   }
 
-  const units = (totalCarbs / ratio).toFixed(1);
-
-  insulinResult.textContent = units;
+  insulinResult.textContent = (totalCarbs / ratio).toFixed(1);
 });
+
+function saveCurrentMeal() {
+  if (meal.length === 0) {
+    alert("Add items before saving a meal.");
+    return;
+  }
+
+  const mealName = prompt("Name this meal:");
+
+  if (!mealName) return;
+
+  savedMeals.push({
+    name: mealName,
+    items: meal
+  });
+
+  localStorage.setItem("savedMeals", JSON.stringify(savedMeals));
+  renderSavedMeals();
+}
+
+function renderSavedMeals() {
+  savedMealsSection.innerHTML = `
+    <h2>Saved Meals</h2>
+    <button onclick="saveCurrentMeal()">Save Current Meal</button>
+  `;
+
+  if (savedMeals.length === 0) {
+    savedMealsSection.innerHTML += "<p>No saved meals yet.</p>";
+    return;
+  }
+
+  savedMeals.forEach((savedMeal, index) => {
+    const div = document.createElement("div");
+    div.className = "meal-item";
+
+    const total = savedMeal.items.reduce((sum, item) => sum + item.totalCarbs, 0);
+
+    div.innerHTML = `
+      <strong>${savedMeal.name}</strong> - ${total}g carbs
+      <button onclick="loadSavedMeal(${index})">Load</button>
+      <button onclick="deleteSavedMeal(${index})">Delete</button>
+    `;
+
+    savedMealsSection.appendChild(div);
+  });
+}
+
+function loadSavedMeal(index) {
+  meal = [...savedMeals[index].items];
+  renderMeal();
+}
+
+function deleteSavedMeal(index) {
+  savedMeals.splice(index, 1);
+  localStorage.setItem("savedMeals", JSON.stringify(savedMeals));
+  renderSavedMeals();
+}

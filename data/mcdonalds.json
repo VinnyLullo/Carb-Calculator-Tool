@@ -1,0 +1,982 @@
+[
+  {
+    "id": "mcdonalds-apple-slices",
+    "restaurant": "McDonald's",
+    "item": "Apple Slices",
+    "carbs": 4,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-cuties",
+    "restaurant": "McDonald's",
+    "item": "Cuties",
+    "carbs": 8,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-french-fries-small",
+    "restaurant": "McDonald's",
+    "item": "French Fries (Small)",
+    "carbs": 29,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-side-salad",
+    "restaurant": "McDonald's",
+    "item": "Side Salad",
+    "carbs": 3,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-strawberry-gogurt",
+    "restaurant": "McDonald's",
+    "item": "Strawberry Gogurt",
+    "carbs": 7,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-artisan-grilled-chicken-sandwich",
+    "restaurant": "McDonald's",
+    "item": "Artisan Grilled Chicken Sandwich",
+    "carbs": 44,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-filet-o-fish",
+    "restaurant": "McDonald's",
+    "item": "Filet-O-Fish®",
+    "carbs": 38,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-mccrispy-crispy-chicken-sandwich",
+    "restaurant": "McDonald's",
+    "item": "McCrispy™ (Crispy Chicken Sandwich)",
+    "carbs": 45,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-mcrib",
+    "restaurant": "McDonald's",
+    "item": "McRib",
+    "carbs": 46,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-spicy-crispy-chicken-sandwich",
+    "restaurant": "McDonald's",
+    "item": "Spicy Crispy Chicken Sandwich",
+    "carbs": 47,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-bacon-egg-and-cheese-bagel",
+    "restaurant": "McDonald's",
+    "item": "Bacon, Egg & Cheese Bagel",
+    "carbs": 54,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-bacon-egg-and-cheese-biscuit-large-size",
+    "restaurant": "McDonald's",
+    "item": "Bacon, Egg & Cheese Biscuit (Large Size)",
+    "carbs": 43,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-bacon-egg-and-cheese-mcgriddles",
+    "restaurant": "McDonald's",
+    "item": "Bacon, Egg & Cheese McGriddles",
+    "carbs": 45,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-big-breakfast-with-hotcakes",
+    "restaurant": "McDonald's",
+    "item": "Big Breakfast with Hotcakes",
+    "carbs": 155,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-big-breakfast",
+    "restaurant": "McDonald's",
+    "item": "Big Breakfast®",
+    "carbs": 53,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-egg-mcmuffin",
+    "restaurant": "McDonald's",
+    "item": "Egg McMuffin",
+    "carbs": 30,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-fruit-and-maple-oatmeal-w-brown-sugar",
+    "restaurant": "McDonald's",
+    "item": "Fruit & Maple Oatmeal (w/ Brown Sugar)",
+    "carbs": 62,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-hash-brown",
+    "restaurant": "McDonald's",
+    "item": "Hash Brown",
+    "carbs": 16,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-hotcakes",
+    "restaurant": "McDonald's",
+    "item": "Hotcakes",
+    "carbs": 102,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-hotcakes-and-sausage",
+    "restaurant": "McDonald's",
+    "item": "Hotcakes and Sausage",
+    "carbs": 103,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-mcchicken-biscuit",
+    "restaurant": "McDonald's",
+    "item": "McChicken Biscuit",
+    "carbs": 46,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-sausage-biscuit-large-size",
+    "restaurant": "McDonald's",
+    "item": "Sausage Biscuit (Large Size)",
+    "carbs": 39,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-sausage-biscuit-with-egg-large-size",
+    "restaurant": "McDonald's",
+    "item": "Sausage Biscuit with Egg (Large Size)",
+    "carbs": 38,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-sausage-burrito",
+    "restaurant": "McDonald's",
+    "item": "Sausage Burrito",
+    "carbs": 26,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-sausage-mcgriddles",
+    "restaurant": "McDonald's",
+    "item": "Sausage McGriddles®",
+    "carbs": 42,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-sausage-mcmuffin",
+    "restaurant": "McDonald's",
+    "item": "Sausage McMuffin®",
+    "carbs": 29,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-sausage-mcmuffin-with-egg",
+    "restaurant": "McDonald's",
+    "item": "Sausage McMuffin® with Egg",
+    "carbs": 30,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-sausage-egg-and-cheese-mcgriddles",
+    "restaurant": "McDonald's",
+    "item": "Sausage, Egg & Cheese McGriddles",
+    "carbs": 45,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-baked-hot-apple-pie",
+    "restaurant": "McDonald's",
+    "item": "Baked Hot Apple Pie",
+    "carbs": 35,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-caramel-brownie-mcflurry-regular",
+    "restaurant": "McDonald's",
+    "item": "Caramel Brownie McFlurry (Regular)",
+    "carbs": 101,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-chips-ahoy-mcflurry-regular",
+    "restaurant": "McDonald's",
+    "item": "Chips Ahoy McFlurry (Regular)",
+    "carbs": 102,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-chocolate-chip-cookie",
+    "restaurant": "McDonald's",
+    "item": "Chocolate Chip Cookie",
+    "carbs": 22,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-chocolate-pretzel-mcflurry-regular",
+    "restaurant": "McDonald's",
+    "item": "Chocolate Pretzel McFlurry (Regular)",
+    "carbs": 109,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-chocolate-shake-medium",
+    "restaurant": "McDonald's",
+    "item": "Chocolate Shake (Medium)",
+    "carbs": 104,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-donut-sticks-12-piece",
+    "restaurant": "McDonald's",
+    "item": "Donut Sticks (12 piece)",
+    "carbs": 68,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-hot-caramel-sundae",
+    "restaurant": "McDonald's",
+    "item": "Hot Caramel Sundae",
+    "carbs": 51,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-hot-fudge-sundae",
+    "restaurant": "McDonald's",
+    "item": "Hot Fudge Sundae",
+    "carbs": 43,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-kiddie-ice-cream-cone",
+    "restaurant": "McDonald's",
+    "item": "Kiddie Ice Cream Cone",
+    "carbs": 5,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-mcflurry-w-mandm-s-candies-regular",
+    "restaurant": "McDonald's",
+    "item": "McFlurry w/ M&M's Candies (Regular)",
+    "carbs": 77,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-mcflurry-w-oreo-cookies-regular",
+    "restaurant": "McDonald's",
+    "item": "McFlurry w/ OREO Cookies (Regular)",
+    "carbs": 60,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-oreo-shamrock-mcflurry-regular",
+    "restaurant": "McDonald's",
+    "item": "Oreo Shamrock McFlurry (Regular)",
+    "carbs": 93,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-pumpkin-and-creme-pie",
+    "restaurant": "McDonald's",
+    "item": "Pumpkin and Creme Pie",
+    "carbs": 31,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-shamrock-shake-medium",
+    "restaurant": "McDonald's",
+    "item": "Shamrock Shake (Medium)",
+    "carbs": 91,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-strawberry-and-creme-pie",
+    "restaurant": "McDonald's",
+    "item": "Strawberry & Creme Pie",
+    "carbs": 36,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-strawberry-shake-medium",
+    "restaurant": "McDonald's",
+    "item": "Strawberry Shake (Medium)",
+    "carbs": 95,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-strawberry-sundae",
+    "restaurant": "McDonald's",
+    "item": "Strawberry Sundae",
+    "carbs": 40,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-vanilla-ice-cream-cone",
+    "restaurant": "McDonald's",
+    "item": "Vanilla Ice Cream Cone",
+    "carbs": 23,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-vanilla-shake-medium",
+    "restaurant": "McDonald's",
+    "item": "Vanilla Shake (Medium)",
+    "carbs": 73,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-big-mac",
+    "restaurant": "McDonald's",
+    "item": "Big Mac",
+    "carbs": 46,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-cheeseburger",
+    "restaurant": "McDonald's",
+    "item": "Cheeseburger",
+    "carbs": 33,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-daily-double",
+    "restaurant": "McDonald's",
+    "item": "Daily Double",
+    "carbs": 33,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-double-big-mac",
+    "restaurant": "McDonald's",
+    "item": "Double Big Mac",
+    "carbs": 46,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-double-cheeseburger",
+    "restaurant": "McDonald's",
+    "item": "Double Cheeseburger",
+    "carbs": 34,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-double-hamburger",
+    "restaurant": "McDonald's",
+    "item": "Double Hamburger",
+    "carbs": 32,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-double-quarter-pounder-with-cheese",
+    "restaurant": "McDonald's",
+    "item": "Double Quarter Pounder with Cheese",
+    "carbs": 43,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-hamburger",
+    "restaurant": "McDonald's",
+    "item": "Hamburger",
+    "carbs": 31,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-mcdouble",
+    "restaurant": "McDonald's",
+    "item": "McDouble",
+    "carbs": 33,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-quarter-pounder-bacon",
+    "restaurant": "McDonald's",
+    "item": "Quarter Pounder Bacon",
+    "carbs": 44,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-quarter-pounder-deluxe",
+    "restaurant": "McDonald's",
+    "item": "Quarter Pounder Deluxe",
+    "carbs": 44,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-quarter-pounder-with-cheese",
+    "restaurant": "McDonald's",
+    "item": "Quarter Pounder® with Cheese",
+    "carbs": 42,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-triple-cheeseburger",
+    "restaurant": "McDonald's",
+    "item": "Triple Cheeseburger",
+    "carbs": 35,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-chicken-mcnuggets-6-piece",
+    "restaurant": "McDonald's",
+    "item": "Chicken McNuggets (6 Piece)",
+    "carbs": 16,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-spicy-chicken-mcnuggets-10-piece",
+    "restaurant": "McDonald's",
+    "item": "Spicy Chicken McNuggets (10 Piece)",
+    "carbs": 20,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-chicken-mcnuggets-happy-meal-6-piece",
+    "restaurant": "McDonald's",
+    "item": "Chicken McNuggets Happy Meal (6 Piece)",
+    "carbs": 46,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-hamburger-happy-meal",
+    "restaurant": "McDonald's",
+    "item": "Hamburger Happy Meal",
+    "carbs": 62,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-crunchy-double",
+    "restaurant": "McDonald's",
+    "item": "Crunchy Double",
+    "carbs": 60,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-hash-brown-mcmuffin",
+    "restaurant": "McDonald's",
+    "item": "Hash Brown McMuffin",
+    "carbs": 47,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-land-air-and-sea",
+    "restaurant": "McDonald's",
+    "item": "Land, Air & Sea",
+    "carbs": 123,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-surf-plus-turf",
+    "restaurant": "McDonald's",
+    "item": "Surf + Turf",
+    "carbs": 73,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-premium-asian-salad-w-grilled-chicken",
+    "restaurant": "McDonald's",
+    "item": "Premium Asian Salad (w/ Grilled Chicken)",
+    "carbs": 8,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-premium-bacon-ranch-salad-w-grilled-chicken",
+    "restaurant": "McDonald's",
+    "item": "Premium Bacon Ranch Salad (w/ Grilled Chicken)",
+    "carbs": 9,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-premium-southwest-salad-w-grilled-chicken",
+    "restaurant": "McDonald's",
+    "item": "Premium Southwest Salad (w/ Grilled Chicken)",
+    "carbs": 27,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-1-low-fat-milk-jug",
+    "restaurant": "McDonald's",
+    "item": "1% Low Fat Milk Jug",
+    "carbs": 12,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-apple-juice-box",
+    "restaurant": "McDonald's",
+    "item": "Apple Juice Box",
+    "carbs": 9,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-coca-cola-classic-small",
+    "restaurant": "McDonald's",
+    "item": "Coca-Cola Classic (Small)",
+    "carbs": 39,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-dasani-water",
+    "restaurant": "McDonald's",
+    "item": "Dasani© Water",
+    "carbs": 0,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-diet-coke-medium",
+    "restaurant": "McDonald's",
+    "item": "Diet Coke (Medium)",
+    "carbs": 0,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-diet-dr-pepper-medium",
+    "restaurant": "McDonald's",
+    "item": "Diet Dr Pepper (Medium)",
+    "carbs": 0,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-dr-pepper-small",
+    "restaurant": "McDonald's",
+    "item": "Dr Pepper (Small)",
+    "carbs": 46,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-fanta-orange-medium",
+    "restaurant": "McDonald's",
+    "item": "Fanta Orange (Medium)",
+    "carbs": 56,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-fat-free-chocolate-milk-jug",
+    "restaurant": "McDonald's",
+    "item": "Fat Free Chocolate Milk Jug",
+    "carbs": 23,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-frozen-coke-medium",
+    "restaurant": "McDonald's",
+    "item": "Frozen Coke (Medium)",
+    "carbs": 35,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-frozen-fanta-wild-cherry-medium",
+    "restaurant": "McDonald's",
+    "item": "Frozen Fanta Wild Cherry (Medium)",
+    "carbs": 34,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-frozen-sprite-lymonade-medium",
+    "restaurant": "McDonald's",
+    "item": "Frozen Sprite Lymonade (Medium)",
+    "carbs": 34,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-iced-tea-medium",
+    "restaurant": "McDonald's",
+    "item": "Iced Tea (Medium)",
+    "carbs": 0,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-mix-by-sprite-tropic-berry-medium",
+    "restaurant": "McDonald's",
+    "item": "MIX by Sprite Tropic Berry (Medium)",
+    "carbs": 51,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-mango-pineapple-smoothie-medium",
+    "restaurant": "McDonald's",
+    "item": "Mango Pineapple Smoothie (Medium)",
+    "carbs": 57,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-minute-made-pink-lemonade-slushie-medium",
+    "restaurant": "McDonald's",
+    "item": "Minute Made Pink Lemonade Slushie (Medium)",
+    "carbs": 68,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-minute-maid-orange-juice",
+    "restaurant": "McDonald's",
+    "item": "Minute Maid Orange Juice",
+    "carbs": 39,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-minute-maid-strawberry-watermelon-slushie-medium",
+    "restaurant": "McDonald's",
+    "item": "Minute Maid Strawberry Watermelon Slushie (Medium)",
+    "carbs": 64,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-sprite-extra-small",
+    "restaurant": "McDonald's",
+    "item": "Sprite (Extra Small)",
+    "carbs": 27,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-strawberry-banana-smoothie-medium",
+    "restaurant": "McDonald's",
+    "item": "Strawberry Banana Smoothie (Medium)",
+    "carbs": 55,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-sweet-tea-small",
+    "restaurant": "McDonald's",
+    "item": "Sweet Tea (Small)",
+    "carbs": 21,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-americano-medium",
+    "restaurant": "McDonald's",
+    "item": "Americano (Medium)",
+    "carbs": 0,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-cappuccino-medium",
+    "restaurant": "McDonald's",
+    "item": "Cappuccino (Medium)",
+    "carbs": 13,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-caramel-cappuccino-medium",
+    "restaurant": "McDonald's",
+    "item": "Caramel Cappuccino (Medium)",
+    "carbs": 44,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-caramel-frappe",
+    "restaurant": "McDonald's",
+    "item": "Caramel Frappe",
+    "carbs": 64,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-caramel-macchiato-medium",
+    "restaurant": "McDonald's",
+    "item": "Caramel Macchiato (Medium)",
+    "carbs": 50,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-cinnamon-cookie-latte",
+    "restaurant": "McDonald's",
+    "item": "Cinnamon Cookie Latte",
+    "carbs": 39,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-coffee-medium",
+    "restaurant": "McDonald's",
+    "item": "Coffee (Medium)",
+    "carbs": 1,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-french-vanilla-cappuccino-medium",
+    "restaurant": "McDonald's",
+    "item": "French Vanilla Cappuccino (Medium)",
+    "carbs": 37,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-hot-chocolate-regular",
+    "restaurant": "McDonald's",
+    "item": "Hot Chocolate (Regular)",
+    "carbs": 53,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-iced-caramel-latte",
+    "restaurant": "McDonald's",
+    "item": "Iced Caramel Latte",
+    "carbs": 31,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-iced-caramel-macchiato-medium",
+    "restaurant": "McDonald's",
+    "item": "Iced Caramel Macchiato (Medium)",
+    "carbs": 40,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-iced-cinnamon-cookie-latte",
+    "restaurant": "McDonald's",
+    "item": "Iced Cinnamon Cookie Latte",
+    "carbs": 28,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-iced-coffee-caramel",
+    "restaurant": "McDonald's",
+    "item": "Iced Coffee (Caramel)",
+    "carbs": 27,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-iced-mocha-nonfat",
+    "restaurant": "McDonald's",
+    "item": "Iced Mocha (Nonfat)",
+    "carbs": 43,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-iced-vanilla-latte",
+    "restaurant": "McDonald's",
+    "item": "Iced Vanilla Latte",
+    "carbs": 33,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-latte-regular",
+    "restaurant": "McDonald's",
+    "item": "Latte (Regular)",
+    "carbs": 13,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-mccafe-pumpkin-spice-latte-medium",
+    "restaurant": "McDonald's",
+    "item": "McCafe Pumpkin Spice Latte (Medium)",
+    "carbs": 45,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-mocha-nonfat",
+    "restaurant": "McDonald's",
+    "item": "Mocha (Nonfat)",
+    "carbs": 50,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-nonfat-latte-regular",
+    "restaurant": "McDonald's",
+    "item": "Nonfat Latte (Regular)",
+    "carbs": 15,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-chipotle-barbeque-sauce",
+    "restaurant": "McDonald's",
+    "item": "Chipotle Barbeque Sauce",
+    "carbs": 11,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-coffee-cream",
+    "restaurant": "McDonald's",
+    "item": "Coffee Cream",
+    "carbs": 0,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-creamy-ranch-sauce",
+    "restaurant": "McDonald's",
+    "item": "Creamy Ranch Sauce",
+    "carbs": 1,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-equal-0-calorie-sweetener",
+    "restaurant": "McDonald's",
+    "item": "EQUAL® 0 Calorie Sweetener",
+    "carbs": 1,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-grape-jam",
+    "restaurant": "McDonald's",
+    "item": "Grape Jam",
+    "carbs": 9,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-honey",
+    "restaurant": "McDonald's",
+    "item": "Honey",
+    "carbs": 12,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-honey-mustard-sauce",
+    "restaurant": "McDonald's",
+    "item": "Honey Mustard Sauce",
+    "carbs": 6,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-hot-habanero-sauce",
+    "restaurant": "McDonald's",
+    "item": "Hot Habanero Sauce",
+    "carbs": 5,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-hotcake-syrup",
+    "restaurant": "McDonald's",
+    "item": "Hotcake Syrup",
+    "carbs": 45,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-ketchup-packet",
+    "restaurant": "McDonald's",
+    "item": "Ketchup Packet",
+    "carbs": 3,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-marinara-sauce",
+    "restaurant": "McDonald's",
+    "item": "Marinara Sauce",
+    "carbs": 2,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-newman-s-own-creamy-southwest-dressing",
+    "restaurant": "McDonald's",
+    "item": "Newman's Own® Creamy Southwest Dressing",
+    "carbs": 11,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-newman-s-own-low-fat-balsamic-vinaigrette",
+    "restaurant": "McDonald's",
+    "item": "Newman's Own® Low Fat Balsamic Vinaigrette",
+    "carbs": 3,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-newman-s-own-low-fat-italian-dressing",
+    "restaurant": "McDonald's",
+    "item": "Newman's Own® Low Fat Italian Dressing",
+    "carbs": 7,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-newman-s-own-low-fat-sesame-ginger-dressing",
+    "restaurant": "McDonald's",
+    "item": "Newman's Own® Low Fat Sesame Ginger Dressing",
+    "carbs": 15,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-newman-s-own-ranch-dressing",
+    "restaurant": "McDonald's",
+    "item": "Newman's Own® Ranch Dressing",
+    "carbs": 9,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-peanuts-for-sundaes",
+    "restaurant": "McDonald's",
+    "item": "Peanuts for Sundaes",
+    "carbs": 2,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-splenda-no-calorie-sweetener",
+    "restaurant": "McDonald's",
+    "item": "SPLENDA® No Calorie Sweetener",
+    "carbs": 1,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-salt-packet",
+    "restaurant": "McDonald's",
+    "item": "Salt Packet",
+    "carbs": 0,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-spicy-buffalo-sauce",
+    "restaurant": "McDonald's",
+    "item": "Spicy Buffalo Sauce",
+    "carbs": 1,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-strawberry-preserves",
+    "restaurant": "McDonald's",
+    "item": "Strawberry Preserves",
+    "carbs": 9,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-sugar-packet",
+    "restaurant": "McDonald's",
+    "item": "Sugar Packet",
+    "carbs": 4,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-sweet-n-sour-sauce",
+    "restaurant": "McDonald's",
+    "item": "Sweet 'N Sour Sauce",
+    "carbs": 12,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-sweet-chili-sauce",
+    "restaurant": "McDonald's",
+    "item": "Sweet Chili Sauce",
+    "carbs": 12,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-szechuan-sauce",
+    "restaurant": "McDonald's",
+    "item": "Szechuan Sauce",
+    "carbs": 8,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-tangy-barbeque-sauce",
+    "restaurant": "McDonald's",
+    "item": "Tangy Barbeque Sauce",
+    "carbs": 12,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-tartar-sauce-cup",
+    "restaurant": "McDonald's",
+    "item": "Tartar Sauce Cup",
+    "carbs": 0,
+    "favorite": false
+  },
+  {
+    "id": "mcdonalds-whipped-margarine",
+    "restaurant": "McDonald's",
+    "item": "Whipped Margarine",
+    "carbs": 0,
+    "favorite": false
+  }
+]

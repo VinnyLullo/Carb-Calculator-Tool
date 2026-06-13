@@ -1,0 +1,1874 @@
+[
+  {
+    "id": "culvers-butterburger-single",
+    "restaurant": "Culver's",
+    "item": "ButterBurger\u00ae, Single",
+    "carbs": 38,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-butterburger-double",
+    "restaurant": "Culver's",
+    "item": "ButterBurger\u00ae, Double",
+    "carbs": 38,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-butterburger-triple",
+    "restaurant": "Culver's",
+    "item": "ButterBurger\u00ae, Triple",
+    "carbs": 38,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-butterburger-cheese-single",
+    "restaurant": "Culver's",
+    "item": "ButterBurger\u00ae Cheese, Single",
+    "carbs": 39,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-butterburger-cheese-double",
+    "restaurant": "Culver's",
+    "item": "ButterBurger\u00ae Cheese, Double",
+    "carbs": 40,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-butterburger-cheese-triple",
+    "restaurant": "Culver's",
+    "item": "ButterBurger\u00ae Cheese, Triple",
+    "carbs": 41,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-mushroom-swiss-butterburger-single",
+    "restaurant": "Culver's",
+    "item": "Mushroom & Swiss ButterBurger\u00ae, Single",
+    "carbs": 41,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-mushroom-swiss-butterburger-double",
+    "restaurant": "Culver's",
+    "item": "Mushroom & Swiss ButterBurger\u00ae, Double",
+    "carbs": 42,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-mushroom-swiss-butterburger-triple",
+    "restaurant": "Culver's",
+    "item": "Mushroom & Swiss ButterBurger\u00ae, Triple",
+    "carbs": 43,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-sourdough-melt-single",
+    "restaurant": "Culver's",
+    "item": "Sourdough Melt, Single",
+    "carbs": 42,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-sourdough-melt-double",
+    "restaurant": "Culver's",
+    "item": "Sourdough Melt, Double",
+    "carbs": 42,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-sourdough-melt-triple",
+    "restaurant": "Culver's",
+    "item": "Sourdough Melt, Triple",
+    "carbs": 42,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-the-culvers-deluxe-single",
+    "restaurant": "Culver's",
+    "item": "The Culver's\u00ae Deluxe, Single",
+    "carbs": 41,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-the-culvers-deluxe-double",
+    "restaurant": "Culver's",
+    "item": "The Culver's\u00ae Deluxe, Double",
+    "carbs": 42,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-the-culvers-deluxe-triple",
+    "restaurant": "Culver's",
+    "item": "The Culver's\u00ae Deluxe, Triple",
+    "carbs": 43,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-the-culvers-bacon-deluxe-single",
+    "restaurant": "Culver's",
+    "item": "The Culver's\u00ae Bacon Deluxe, Single",
+    "carbs": 42,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-the-culvers-bacon-deluxe-double",
+    "restaurant": "Culver's",
+    "item": "The Culver's\u00ae Bacon Deluxe, Double",
+    "carbs": 43,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-the-culvers-bacon-deluxe-triple",
+    "restaurant": "Culver's",
+    "item": "The Culver's\u00ae Bacon Deluxe, Triple",
+    "carbs": 44,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-wisconsin-swiss-melt-single",
+    "restaurant": "Culver's",
+    "item": "Wisconsin Swiss Melt, Single",
+    "carbs": 41,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-wisconsin-swiss-melt-double",
+    "restaurant": "Culver's",
+    "item": "Wisconsin Swiss Melt, Double",
+    "carbs": 42,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-wisconsin-swiss-melt-triple",
+    "restaurant": "Culver's",
+    "item": "Wisconsin Swiss Melt, Triple",
+    "carbs": 43,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chicken-tenders-buffalo-1-piece",
+    "restaurant": "Culver's",
+    "item": "Chicken Tenders, Buffalo - 1 Piece",
+    "carbs": 10,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chicken-tenders-buffalo-2-piece",
+    "restaurant": "Culver's",
+    "item": "Chicken Tenders, Buffalo - 2 Piece",
+    "carbs": 20,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chicken-tenders-buffalo-4-piece",
+    "restaurant": "Culver's",
+    "item": "Chicken Tenders, Buffalo - 4 Piece",
+    "carbs": 40,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chicken-tenders-buffalo-8-piece",
+    "restaurant": "Culver's",
+    "item": "Chicken Tenders, Buffalo - 8 Piece",
+    "carbs": 81,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chicken-tenders-original-1-piece",
+    "restaurant": "Culver's",
+    "item": "Chicken Tenders, Original - 1 Piece",
+    "carbs": 10,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chicken-tenders-original-2-piece",
+    "restaurant": "Culver's",
+    "item": "Chicken Tenders, Original - 2 Piece",
+    "carbs": 21,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chicken-tenders-original-4-piece",
+    "restaurant": "Culver's",
+    "item": "Chicken Tenders, Original - 4 Piece",
+    "carbs": 41,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chicken-tenders-original-8-piece",
+    "restaurant": "Culver's",
+    "item": "Chicken Tenders, Original - 8 Piece",
+    "carbs": 83,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-crispy-chicken-sandwich",
+    "restaurant": "Culver's",
+    "item": "Crispy Chicken Sandwich",
+    "carbs": 65,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-grilled-chicken-sandwich",
+    "restaurant": "Culver's",
+    "item": "Grilled Chicken Sandwich",
+    "carbs": 40,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-spicy-crispy-chicken-sandwich",
+    "restaurant": "Culver's",
+    "item": "Spicy Crispy Chicken Sandwich",
+    "carbs": 65,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-butterfly-jumbo-shrimp-3-piece",
+    "restaurant": "Culver's",
+    "item": "Butterfly Jumbo Shrimp** - 3 Piece",
+    "carbs": 17,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-butterfly-jumbo-shrimp-6-piece",
+    "restaurant": "Culver's",
+    "item": "Butterfly Jumbo Shrimp** - 6 Piece",
+    "carbs": 35,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-butterfly-jumbo-shrimp-10-piece",
+    "restaurant": "Culver's",
+    "item": "Butterfly Jumbo Shrimp** - 10 Piece",
+    "carbs": 58,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-butterfly-jumbo-shrimp-dinner-6-piece",
+    "restaurant": "Culver's",
+    "item": "Butterfly Jumbo Shrimp Dinner* - 6 Piece",
+    "carbs": 55,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-butterfly-jumbo-shrimp-dinner-10-piece",
+    "restaurant": "Culver's",
+    "item": "Butterfly Jumbo Shrimp Dinner* - 10 Piece",
+    "carbs": 78,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-north-atlantic-cod-sandwich",
+    "restaurant": "Culver's",
+    "item": "North Atlantic Cod Sandwich",
+    "carbs": 51,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-north-atlantic-cod-dinner-1-piece",
+    "restaurant": "Culver's",
+    "item": "North Atlantic Cod Dinner* - 1 Piece",
+    "carbs": 31,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-north-atlantic-cod-dinner-2-piece",
+    "restaurant": "Culver's",
+    "item": "North Atlantic Cod Dinner* - 2 Piece",
+    "carbs": 41,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-north-atlantic-cod-dinner-3-piece",
+    "restaurant": "Culver's",
+    "item": "North Atlantic Cod Dinner* - 3 Piece",
+    "carbs": 51,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-beef-pot-roast-dinner",
+    "restaurant": "Culver's",
+    "item": "Beef Pot Roast Dinner*",
+    "carbs": 45,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-beef-pot-roast-sandwich",
+    "restaurant": "Culver's",
+    "item": "Beef Pot Roast Sandwich",
+    "carbs": 40,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chopped-steak-dinner",
+    "restaurant": "Culver's",
+    "item": "Chopped Steak Dinner*",
+    "carbs": 24,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-grilled-cheese",
+    "restaurant": "Culver's",
+    "item": "Grilled Cheese",
+    "carbs": 39,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-grilled-reuben-melt",
+    "restaurant": "Culver's",
+    "item": "Grilled Reuben Melt",
+    "carbs": 43,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-harvest-veggie-burger",
+    "restaurant": "Culver's",
+    "item": "Harvest Veggie Burger",
+    "carbs": 74,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-pork-loin-sandwich",
+    "restaurant": "Culver's",
+    "item": "Pork Loin Sandwich",
+    "carbs": 68,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-corn-dog",
+    "restaurant": "Culver's",
+    "item": "Corn Dog",
+    "carbs": 23,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-crinkle-cut-fries-small",
+    "restaurant": "Culver's",
+    "item": "Crinkle Cut Fries, Small",
+    "carbs": 32,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-motts-applesauce",
+    "restaurant": "Culver's",
+    "item": "Mott's\u00ae Applesauce",
+    "carbs": 12,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chocolate-milk",
+    "restaurant": "Culver's",
+    "item": "Chocolate Milk",
+    "carbs": 27,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-white-milk",
+    "restaurant": "Culver's",
+    "item": "White Milk",
+    "carbs": 13,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-motts-100-apple-juice",
+    "restaurant": "Culver's",
+    "item": "Mott's\u00ae 100% Apple Juice",
+    "carbs": 24,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chili-cheddar-fries",
+    "restaurant": "Culver's",
+    "item": "Chili Cheddar Fries",
+    "carbs": 70,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-crinkle-cut-fries-medium",
+    "restaurant": "Culver's",
+    "item": "Crinkle Cut Fries, Medium",
+    "carbs": 50,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-crinkle-cut-fries-large",
+    "restaurant": "Culver's",
+    "item": "Crinkle Cut Fries, Large",
+    "carbs": 62,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-coleslaw-medium",
+    "restaurant": "Culver's",
+    "item": "Coleslaw, Medium",
+    "carbs": 15,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-coleslaw-large",
+    "restaurant": "Culver's",
+    "item": "Coleslaw, Large",
+    "carbs": 45,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-garden-side-salad",
+    "restaurant": "Culver's",
+    "item": "Garden Side Salad",
+    "carbs": 5,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-mashed-potatoes-gravy-medium",
+    "restaurant": "Culver's",
+    "item": "Mashed Potatoes & Gravy, Medium",
+    "carbs": 25,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-mashed-potatoes-gravy-large",
+    "restaurant": "Culver's",
+    "item": "Mashed Potatoes & Gravy, Large",
+    "carbs": 73,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-pretzel-bites-with-cheese-sauce",
+    "restaurant": "Culver's",
+    "item": "Pretzel Bites with Cheese Sauce",
+    "carbs": 53,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-onion-rings-medium",
+    "restaurant": "Culver's",
+    "item": "Onion Rings, Medium",
+    "carbs": 49,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-onion-rings-large",
+    "restaurant": "Culver's",
+    "item": "Onion Rings, Large",
+    "carbs": 98,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-side-of-thick-cut-bacon-2-slices",
+    "restaurant": "Culver's",
+    "item": "Side of Thick Cut Bacon (2 Slices)",
+    "carbs": 0.5,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-side-of-dill-pickles",
+    "restaurant": "Culver's",
+    "item": "Side of Dill Pickles",
+    "carbs": 0,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-steamed-broccoli",
+    "restaurant": "Culver's",
+    "item": "Steamed Broccoli",
+    "carbs": 7,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-wisconsin-cheddar-cheese-sauce",
+    "restaurant": "Culver's",
+    "item": "Wisconsin Cheddar Cheese Sauce",
+    "carbs": 3,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-wisconsin-cheese-curds-medium",
+    "restaurant": "Culver's",
+    "item": "Wisconsin Cheese Curds, Medium",
+    "carbs": 46,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-wisconsin-cheese-curds-large",
+    "restaurant": "Culver's",
+    "item": "Wisconsin Cheese Curds, Large",
+    "carbs": 91,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chicken-cashew-salad-with-grilled-chicken",
+    "restaurant": "Culver's",
+    "item": "Chicken Cashew Salad with Grilled Chicken",
+    "carbs": 17,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-cranberry-bacon-bleu-salad-with-grilled-chicken",
+    "restaurant": "Culver's",
+    "item": "Cranberry Bacon Bleu Salad with Grilled Chicken",
+    "carbs": 18,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-garden-fresco-salad-with-grilled-chicken",
+    "restaurant": "Culver's",
+    "item": "Garden Fresco Salad with Grilled Chicken",
+    "carbs": 19,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-strawberry-fields-salad-with-grilled-chicken",
+    "restaurant": "Culver's",
+    "item": "Strawberry Fields Salad with Grilled Chicken",
+    "carbs": 12,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-boston-clam-chowder-medium",
+    "restaurant": "Culver's",
+    "item": "Boston Clam Chowder, Medium",
+    "carbs": 32,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-broccoli-cheese-medium",
+    "restaurant": "Culver's",
+    "item": "Broccoli Cheese, Medium",
+    "carbs": 22,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chicken-noodle-medium",
+    "restaurant": "Culver's",
+    "item": "Chicken Noodle, Medium",
+    "carbs": 20,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-georges-chili-medium",
+    "restaurant": "Culver's",
+    "item": "George's\u00ae Chili, Medium",
+    "carbs": 31,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-georges-chili-supreme-medium",
+    "restaurant": "Culver's",
+    "item": "George's\u00ae Chili Supreme, Medium",
+    "carbs": 33,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-potato-with-bacon-medium",
+    "restaurant": "Culver's",
+    "item": "Potato with Bacon, Medium",
+    "carbs": 33,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-stuffed-green-pepper-with-beef-medium",
+    "restaurant": "Culver's",
+    "item": "Stuffed Green Pepper with Beef, Medium",
+    "carbs": 29,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-tomato-florentine-medium",
+    "restaurant": "Culver's",
+    "item": "Tomato Florentine, Medium",
+    "carbs": 27,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-vegetable-beef-medium",
+    "restaurant": "Culver's",
+    "item": "Vegetable Beef, Medium",
+    "carbs": 27,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-wild-and-brown-rice-with-chicken-medium",
+    "restaurant": "Culver's",
+    "item": "Wild and Brown Rice with Chicken, Medium",
+    "carbs": 31,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-buttermilk-ranch-dressing",
+    "restaurant": "Culver's",
+    "item": "Buttermilk Ranch Dressing",
+    "carbs": 2,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-cocktail-sauce",
+    "restaurant": "Culver's",
+    "item": "Cocktail Sauce",
+    "carbs": 13,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-culvers-signature-sauce",
+    "restaurant": "Culver's",
+    "item": "Culver's\u00ae Signature Sauce",
+    "carbs": 3,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-culvers-vinaigrette",
+    "restaurant": "Culver's",
+    "item": "Culver's\u00ae Vinaigrette",
+    "carbs": 3,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-marinara-cup",
+    "restaurant": "Culver's",
+    "item": "Marinara Cup",
+    "carbs": 9,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-dip-squeeze-ketchup",
+    "restaurant": "Culver's",
+    "item": "Dip & Squeeze Ketchup",
+    "carbs": 8,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-franks-redhot-buffalo-sauce",
+    "restaurant": "Culver's",
+    "item": "Frank's RedHot\u00ae Buffalo Sauce",
+    "carbs": 1,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-honey-mustard-dressing",
+    "restaurant": "Culver's",
+    "item": "Honey Mustard Dressing",
+    "carbs": 20,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-horseradish-sauce",
+    "restaurant": "Culver's",
+    "item": "Horseradish Sauce",
+    "carbs": 2,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-hot-sauce",
+    "restaurant": "Culver's",
+    "item": "Hot Sauce",
+    "carbs": 0,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-kens-blue-cheese-dressing",
+    "restaurant": "Culver's",
+    "item": "Ken's\u00ae Blue Cheese Dressing",
+    "carbs": 2,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-kens-boom-boom-sauce",
+    "restaurant": "Culver's",
+    "item": "Ken's\u00ae Boom Boom Sauce",
+    "carbs": 5,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-kens-country-french",
+    "restaurant": "Culver's",
+    "item": "Ken's\u00ae Country French",
+    "carbs": 13,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-kens-raspberry-vinaigrette",
+    "restaurant": "Culver's",
+    "item": "Ken's\u00ae Raspberry Vinaigrette",
+    "carbs": 12,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-malt-vinegar",
+    "restaurant": "Culver's",
+    "item": "Malt Vinegar",
+    "carbs": 0,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-mayonnaise-packet",
+    "restaurant": "Culver's",
+    "item": "Mayonnaise Packet",
+    "carbs": 1,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-spicy-brown-mustard-packet",
+    "restaurant": "Culver's",
+    "item": "Spicy Brown Mustard Packet",
+    "carbs": 0,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-sweet-baby-rays-bbq-sauce",
+    "restaurant": "Culver's",
+    "item": "Sweet Baby Ray's\u00ae BBQ Sauce",
+    "carbs": 28,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-tartar-sauce-cup",
+    "restaurant": "Culver's",
+    "item": "Tartar Sauce Cup",
+    "carbs": 3,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-yellow-mustard-packet",
+    "restaurant": "Culver's",
+    "item": "Yellow Mustard Packet",
+    "carbs": 0,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-banana-split-2-scoop",
+    "restaurant": "Culver's",
+    "item": "Banana Split, 2 Scoop",
+    "carbs": 150,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-banana-split-3-scoop",
+    "restaurant": "Culver's",
+    "item": "Banana Split, 3 Scoop",
+    "carbs": 166,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chocolate-cake-cone-1-scoop",
+    "restaurant": "Culver's",
+    "item": "Chocolate Cake Cone, 1 Scoop",
+    "carbs": 41,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chocolate-cake-cone-2-scoop",
+    "restaurant": "Culver's",
+    "item": "Chocolate Cake Cone, 2 Scoop",
+    "carbs": 73,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chocolate-cake-cone-3-scoop",
+    "restaurant": "Culver's",
+    "item": "Chocolate Cake Cone, 3 Scoop",
+    "carbs": 91,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chocolate-dish-1-scoop",
+    "restaurant": "Culver's",
+    "item": "Chocolate, Dish, 1 Scoop",
+    "carbs": 36,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chocolate-dish-2-scoop",
+    "restaurant": "Culver's",
+    "item": "Chocolate, Dish, 2 Scoop",
+    "carbs": 68,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chocolate-dish-3-scoop",
+    "restaurant": "Culver's",
+    "item": "Chocolate, Dish, 3 Scoop",
+    "carbs": 86,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chocolate-waffle-cone-1-scoop",
+    "restaurant": "Culver's",
+    "item": "Chocolate, Waffle Cone, 1 Scoop",
+    "carbs": 61,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chocolate-waffle-cone-2-scoop",
+    "restaurant": "Culver's",
+    "item": "Chocolate, Waffle Cone, 2 Scoop",
+    "carbs": 93,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chocolate-waffle-cone-3-scoop",
+    "restaurant": "Culver's",
+    "item": "Chocolate, Waffle Cone, 3 Scoop",
+    "carbs": 111,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-vanilla-cake-cone-1-scoop",
+    "restaurant": "Culver's",
+    "item": "Vanilla Cake Cone, 1 Scoop",
+    "carbs": 36,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-vanilla-cake-cone-2-scoop",
+    "restaurant": "Culver's",
+    "item": "Vanilla Cake Cone, 2 Scoop",
+    "carbs": 65,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-vanilla-cake-cone-3-scoop",
+    "restaurant": "Culver's",
+    "item": "Vanilla Cake Cone, 3 Scoop",
+    "carbs": 80,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-vanilla-dish-1-scoop",
+    "restaurant": "Culver's",
+    "item": "Vanilla, Dish, 1 Scoop",
+    "carbs": 31,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-vanilla-dish-2-scoop",
+    "restaurant": "Culver's",
+    "item": "Vanilla, Dish, 2 Scoop",
+    "carbs": 60,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-vanilla-dish-3-scoop",
+    "restaurant": "Culver's",
+    "item": "Vanilla, Dish, 3 Scoop",
+    "carbs": 75,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-vanilla-waffle-cone-1-scoop",
+    "restaurant": "Culver's",
+    "item": "Vanilla, Waffle Cone, 1 Scoop",
+    "carbs": 56,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-vanilla-waffle-cone-2-scoop",
+    "restaurant": "Culver's",
+    "item": "Vanilla, Waffle Cone, 2 Scoop",
+    "carbs": 85,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-vanilla-waffle-cone-3-scoop",
+    "restaurant": "Culver's",
+    "item": "Vanilla, Waffle Cone, 3 Scoop",
+    "carbs": 100,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-caramel-cashew-sundae-1-scoop",
+    "restaurant": "Culver's",
+    "item": "Caramel Cashew Sundae, 1 Scoop",
+    "carbs": 92,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-caramel-cashew-sundae-2-scoop",
+    "restaurant": "Culver's",
+    "item": "Caramel Cashew Sundae, 2 Scoop",
+    "carbs": 121,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-caramel-cashew-sundae-3-scoop",
+    "restaurant": "Culver's",
+    "item": "Caramel Cashew Sundae, 3 Scoop",
+    "carbs": 136,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-turtle-sundae-1-scoop",
+    "restaurant": "Culver's",
+    "item": "Turtle Sundae, 1 Scoop",
+    "carbs": 82,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-turtle-sundae-2-scoop",
+    "restaurant": "Culver's",
+    "item": "Turtle Sundae, 2 Scoop",
+    "carbs": 111,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-turtle-sundae-3-scoop",
+    "restaurant": "Culver's",
+    "item": "Turtle Sundae, 3 Scoop",
+    "carbs": 126,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-create-your-own-chocolate-custard-concrete-mixer-mini",
+    "restaurant": "Culver's",
+    "item": "Create Your Own Chocolate Custard Concrete Mixer\u00ae, Mini",
+    "carbs": 43,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-create-your-own-chocolate-custard-concrete-mixer-small",
+    "restaurant": "Culver's",
+    "item": "Create Your Own Chocolate Custard Concrete Mixer\u00ae, Small",
+    "carbs": 71,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-create-your-own-chocolate-custard-concrete-mixer-medium",
+    "restaurant": "Culver's",
+    "item": "Create Your Own Chocolate Custard Concrete Mixer\u00ae, Medium",
+    "carbs": 93,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-create-your-own-chocolate-custard-concrete-mixer-large",
+    "restaurant": "Culver's",
+    "item": "Create Your Own Chocolate Custard Concrete Mixer\u00ae, Large",
+    "carbs": 107,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-create-your-own-vanilla-custard-concrete-mixer-mini",
+    "restaurant": "Culver's",
+    "item": "Create Your Own Vanilla Custard Concrete Mixer\u00ae, Mini",
+    "carbs": 38,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-create-your-own-vanilla-custard-concrete-mixer-small",
+    "restaurant": "Culver's",
+    "item": "Create Your Own Vanilla Custard Concrete Mixer\u00ae, Small",
+    "carbs": 63,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-create-your-own-vanilla-custard-concrete-mixer-medium",
+    "restaurant": "Culver's",
+    "item": "Create Your Own Vanilla Custard Concrete Mixer\u00ae, Medium",
+    "carbs": 82,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-create-your-own-vanilla-custard-concrete-mixer-large",
+    "restaurant": "Culver's",
+    "item": "Create Your Own Vanilla Custard Concrete Mixer\u00ae, Large",
+    "carbs": 94,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-culvers-root-beer-float-small",
+    "restaurant": "Culver's",
+    "item": "Culver's\u00ae Root Beer Float, Small",
+    "carbs": 65,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-culvers-root-beer-float-medium",
+    "restaurant": "Culver's",
+    "item": "Culver's\u00ae Root Beer Float, Medium",
+    "carbs": 79,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-culvers-root-beer-float-large",
+    "restaurant": "Culver's",
+    "item": "Culver's\u00ae Root Beer Float, Large",
+    "carbs": 87,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chocolate-malt-small",
+    "restaurant": "Culver's",
+    "item": "Chocolate Malt, Small",
+    "carbs": 106,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chocolate-malt-medium",
+    "restaurant": "Culver's",
+    "item": "Chocolate Malt, Medium",
+    "carbs": 129,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chocolate-malt-large",
+    "restaurant": "Culver's",
+    "item": "Chocolate Malt, Large",
+    "carbs": 163,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chocolate-shake-small",
+    "restaurant": "Culver's",
+    "item": "Chocolate Shake, Small",
+    "carbs": 100,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chocolate-shake-medium",
+    "restaurant": "Culver's",
+    "item": "Chocolate Shake, Medium",
+    "carbs": 117,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chocolate-shake-large",
+    "restaurant": "Culver's",
+    "item": "Chocolate Shake, Large",
+    "carbs": 145,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-vanilla-malt-small",
+    "restaurant": "Culver's",
+    "item": "Vanilla Malt, Small",
+    "carbs": 63,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-vanilla-malt-medium",
+    "restaurant": "Culver's",
+    "item": "Vanilla Malt, Medium",
+    "carbs": 86,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-vanilla-malt-large",
+    "restaurant": "Culver's",
+    "item": "Vanilla Malt, Large",
+    "carbs": 121,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-vanilla-shake-small",
+    "restaurant": "Culver's",
+    "item": "Vanilla Shake, Small",
+    "carbs": 57,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-vanilla-shake-medium",
+    "restaurant": "Culver's",
+    "item": "Vanilla Shake, Medium",
+    "carbs": 74,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-vanilla-shake-large",
+    "restaurant": "Culver's",
+    "item": "Vanilla Shake, Large",
+    "carbs": 103,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-andes-creme-de-menthe-thins",
+    "restaurant": "Culver's",
+    "item": "Andes\u00ae Creme De Menthe Thins",
+    "carbs": 12,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-bananas",
+    "restaurant": "Culver's",
+    "item": "Bananas",
+    "carbs": 12,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-blueberries",
+    "restaurant": "Culver's",
+    "item": "Blueberries",
+    "carbs": 10,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-brownie-pieces",
+    "restaurant": "Culver's",
+    "item": "Brownie Pieces",
+    "carbs": 18,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-butterfinger-pieces",
+    "restaurant": "Culver's",
+    "item": "Butterfinger\u00ae Pieces",
+    "carbs": 20,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-candy-sprinkles",
+    "restaurant": "Culver's",
+    "item": "Candy Sprinkles",
+    "carbs": 23,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-cashews",
+    "restaurant": "Culver's",
+    "item": "Cashews",
+    "carbs": 8,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chocolate-chip-cookie-dough",
+    "restaurant": "Culver's",
+    "item": "Chocolate Chip Cookie Dough",
+    "carbs": 18,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-chocolate-syrup",
+    "restaurant": "Culver's",
+    "item": "Chocolate Syrup",
+    "carbs": 21,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-dove-chocolate-pieces",
+    "restaurant": "Culver's",
+    "item": "Dove\u00ae Chocolate Pieces",
+    "carbs": 13,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-elis-cheesecake-pieces",
+    "restaurant": "Culver's",
+    "item": "Eli's\u00ae Cheesecake Pieces",
+    "carbs": 11,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-elis-chocolate-cake-pieces",
+    "restaurant": "Culver's",
+    "item": "Eli's\u00ae Chocolate Cake Pieces",
+    "carbs": 11,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-heath-bar-pieces",
+    "restaurant": "Culver's",
+    "item": "Heath\u00ae Bar Pieces",
+    "carbs": 17,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-hot-caramel",
+    "restaurant": "Culver's",
+    "item": "Hot Caramel",
+    "carbs": 25,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-hot-fudge",
+    "restaurant": "Culver's",
+    "item": "Hot Fudge",
+    "carbs": 21,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-maraschino-cherry",
+    "restaurant": "Culver's",
+    "item": "Maraschino Cherry",
+    "carbs": 2,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-marshmallow-creme",
+    "restaurant": "Culver's",
+    "item": "Marshmallow Creme",
+    "carbs": 26,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-mint-syrup",
+    "restaurant": "Culver's",
+    "item": "Mint Syrup",
+    "carbs": 25,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-m-m-minis",
+    "restaurant": "Culver's",
+    "item": "M&M\u00ae Minis",
+    "carbs": 20,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-novelty-chocolate-topping",
+    "restaurant": "Culver's",
+    "item": "Novelty Chocolate Topping",
+    "carbs": 16,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-oreo-cookies",
+    "restaurant": "Culver's",
+    "item": "Oreo\u00ae Cookies",
+    "carbs": 14,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-peaches",
+    "restaurant": "Culver's",
+    "item": "Peaches",
+    "carbs": 9,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-pecan-halves",
+    "restaurant": "Culver's",
+    "item": "Pecan Halves",
+    "carbs": 3,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-raspberries",
+    "restaurant": "Culver's",
+    "item": "Raspberries",
+    "carbs": 9,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-reeses-peanut-butter-sauce",
+    "restaurant": "Culver's",
+    "item": "Reese's\u00ae Peanut Butter Sauce",
+    "carbs": 7,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-reeses-peanut-butter-cups",
+    "restaurant": "Culver's",
+    "item": "Reese's\u00ae Peanut Butter Cups",
+    "carbs": 16,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-root-beer-syrup",
+    "restaurant": "Culver's",
+    "item": "Root Beer Syrup",
+    "carbs": 17,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-salted-caramel",
+    "restaurant": "Culver's",
+    "item": "Salted Caramel",
+    "carbs": 25,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-snickers-candy-bar-pieces",
+    "restaurant": "Culver's",
+    "item": "Snickers\u00ae Candy Bar Pieces",
+    "carbs": 17,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-whipped-cream",
+    "restaurant": "Culver's",
+    "item": "Whipped Cream",
+    "carbs": 1,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-wild-cherries",
+    "restaurant": "Culver's",
+    "item": "Wild Cherries",
+    "carbs": 16,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-bottled-water",
+    "restaurant": "Culver's",
+    "item": "Bottled Water",
+    "carbs": 0,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-coca-cola-small",
+    "restaurant": "Culver's",
+    "item": "Coca-Cola\u00ae, Small",
+    "carbs": 54,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-coca-cola-medium",
+    "restaurant": "Culver's",
+    "item": "Coca-Cola\u00ae, Medium",
+    "carbs": 74,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-coca-cola-large",
+    "restaurant": "Culver's",
+    "item": "Coca-Cola\u00ae, Large",
+    "carbs": 107,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-coca-cola-zero-sugar-small",
+    "restaurant": "Culver's",
+    "item": "Coca-Cola\u00ae Zero Sugar, Small",
+    "carbs": 0,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-coca-cola-zero-sugar-medium",
+    "restaurant": "Culver's",
+    "item": "Coca-Cola\u00ae Zero Sugar, Medium",
+    "carbs": 0,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-coca-cola-zero-sugar-large",
+    "restaurant": "Culver's",
+    "item": "Coca-Cola\u00ae Zero Sugar, Large",
+    "carbs": 0,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-coffee-8-fl-oz",
+    "restaurant": "Culver's",
+    "item": "Coffee, 8 fl. oz.",
+    "carbs": 0,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-culvers-diet-root-beer-small",
+    "restaurant": "Culver's",
+    "item": "Culver's\u00ae Diet Root Beer, Small",
+    "carbs": 0,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-culvers-diet-root-beer-medium",
+    "restaurant": "Culver's",
+    "item": "Culver's\u00ae Diet Root Beer, Medium",
+    "carbs": 0,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-culvers-diet-root-beer-large",
+    "restaurant": "Culver's",
+    "item": "Culver's\u00ae Diet Root Beer, Large",
+    "carbs": 0,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-culvers-root-beer-small",
+    "restaurant": "Culver's",
+    "item": "Culver's\u00ae Root Beer, Small",
+    "carbs": 59,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-culvers-root-beer-medium",
+    "restaurant": "Culver's",
+    "item": "Culver's\u00ae Root Beer, Medium",
+    "carbs": 81,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-culvers-root-beer-large",
+    "restaurant": "Culver's",
+    "item": "Culver's\u00ae Root Beer, Large",
+    "carbs": 118,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-diet-coke-small",
+    "restaurant": "Culver's",
+    "item": "Diet Coke\u00ae, Small",
+    "carbs": 0.5,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-diet-coke-medium",
+    "restaurant": "Culver's",
+    "item": "Diet Coke\u00ae, Medium",
+    "carbs": 0.5,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-diet-coke-large",
+    "restaurant": "Culver's",
+    "item": "Diet Coke\u00ae, Large",
+    "carbs": 0.5,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-diet-dr-pepper-small",
+    "restaurant": "Culver's",
+    "item": "Diet Dr Pepper\u00ae, Small",
+    "carbs": 0,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-diet-dr-pepper-medium",
+    "restaurant": "Culver's",
+    "item": "Diet Dr Pepper\u00ae, Medium",
+    "carbs": 0,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-diet-dr-pepper-large",
+    "restaurant": "Culver's",
+    "item": "Diet Dr Pepper\u00ae, Large",
+    "carbs": 0,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-dr-pepper-small",
+    "restaurant": "Culver's",
+    "item": "Dr Pepper\u00ae, Small",
+    "carbs": 52,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-dr-pepper-medium",
+    "restaurant": "Culver's",
+    "item": "Dr Pepper\u00ae, Medium",
+    "carbs": 72,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-dr-pepper-large",
+    "restaurant": "Culver's",
+    "item": "Dr Pepper\u00ae, Large",
+    "carbs": 104,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-fanta-orange-small",
+    "restaurant": "Culver's",
+    "item": "Fanta\u00ae Orange, Small",
+    "carbs": 53,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-fanta-orange-medium",
+    "restaurant": "Culver's",
+    "item": "Fanta\u00ae Orange, Medium",
+    "carbs": 73,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-fanta-orange-large",
+    "restaurant": "Culver's",
+    "item": "Fanta\u00ae Orange, Large",
+    "carbs": 106,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-fresh-brewed-sweet-tea-small",
+    "restaurant": "Culver's",
+    "item": "Fresh Brewed Sweet Tea, Small",
+    "carbs": 33,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-fresh-brewed-sweet-tea-medium",
+    "restaurant": "Culver's",
+    "item": "Fresh Brewed Sweet Tea, Medium",
+    "carbs": 45,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-fresh-brewed-sweet-tea-large",
+    "restaurant": "Culver's",
+    "item": "Fresh Brewed Sweet Tea, Large",
+    "carbs": 66,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-fresh-brewed-unsweetened-iced-tea-small",
+    "restaurant": "Culver's",
+    "item": "Fresh Brewed Unsweetened Iced Tea, Small",
+    "carbs": 0,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-fresh-brewed-unsweetened-iced-tea-medium",
+    "restaurant": "Culver's",
+    "item": "Fresh Brewed Unsweetened Iced Tea, Medium",
+    "carbs": 0,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-fresh-brewed-unsweetened-iced-tea-large",
+    "restaurant": "Culver's",
+    "item": "Fresh Brewed Unsweetened Iced Tea, Large",
+    "carbs": 0,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-hi-c-flashin-fruit-punch-small",
+    "restaurant": "Culver's",
+    "item": "Hi-C\u00ae Flashin Fruit Punch, Small",
+    "carbs": 57,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-hi-c-flashin-fruit-punch-medium",
+    "restaurant": "Culver's",
+    "item": "Hi-C\u00ae Flashin Fruit Punch, Medium",
+    "carbs": 78,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-hi-c-flashin-fruit-punch-large",
+    "restaurant": "Culver's",
+    "item": "Hi-C\u00ae Flashin Fruit Punch, Large",
+    "carbs": 113,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-mello-yello-small",
+    "restaurant": "Culver's",
+    "item": "Mello Yello\u00ae, Small",
+    "carbs": 58,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-mello-yello-medium",
+    "restaurant": "Culver's",
+    "item": "Mello Yello\u00ae, Medium",
+    "carbs": 80,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-mello-yello-large",
+    "restaurant": "Culver's",
+    "item": "Mello Yello\u00ae, Large",
+    "carbs": 116,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-milk",
+    "restaurant": "Culver's",
+    "item": "Milk",
+    "carbs": 13,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-minute-maid-lemonade-small",
+    "restaurant": "Culver's",
+    "item": "Minute Maid\u00ae Lemonade, Small",
+    "carbs": 48,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-minute-maid-lemonade-medium",
+    "restaurant": "Culver's",
+    "item": "Minute Maid\u00ae Lemonade, Medium",
+    "carbs": 66,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-minute-maid-lemonade-large",
+    "restaurant": "Culver's",
+    "item": "Minute Maid\u00ae Lemonade, Large",
+    "carbs": 96,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-motts-apple-juice",
+    "restaurant": "Culver's",
+    "item": "Mott's\u00ae Apple Juice",
+    "carbs": 24,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-powerade-mountain-berry-blast-small",
+    "restaurant": "Culver's",
+    "item": "Powerade\u00ae Mountain Berry Blast, Small",
+    "carbs": 29,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-powerade-mountain-berry-blast-medium",
+    "restaurant": "Culver's",
+    "item": "Powerade\u00ae Mountain Berry Blast, Medium",
+    "carbs": 40,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-powerade-mountain-berry-blast-large",
+    "restaurant": "Culver's",
+    "item": "Powerade\u00ae Mountain Berry Blast, Large",
+    "carbs": 59,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-sprite-small",
+    "restaurant": "Culver's",
+    "item": "Sprite\u00ae, Small",
+    "carbs": 50,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-sprite-medium",
+    "restaurant": "Culver's",
+    "item": "Sprite\u00ae, Medium",
+    "carbs": 68,
+    "favorite": false,
+    "active": true
+  },
+  {
+    "id": "culvers-sprite-large",
+    "restaurant": "Culver's",
+    "item": "Sprite\u00ae, Large",
+    "carbs": 99,
+    "favorite": false,
+    "active": true
+  }
+]
