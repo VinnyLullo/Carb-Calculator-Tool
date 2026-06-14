@@ -1,0 +1,443 @@
+[
+  {
+    "id": "wendys-dave-s-single",
+    "restaurant": "Wendy's",
+    "item": "Dave's Single",
+    "carbs": 37,
+    "favorite": false
+  },
+  {
+    "id": "wendys-dave-s-double",
+    "restaurant": "Wendy's",
+    "item": "Dave's Double",
+    "carbs": 39,
+    "favorite": false
+  },
+  {
+    "id": "wendys-dave-s-triple",
+    "restaurant": "Wendy's",
+    "item": "Dave's Triple",
+    "carbs": 41,
+    "favorite": false
+  },
+  {
+    "id": "wendys-baconator",
+    "restaurant": "Wendy's",
+    "item": "Baconator",
+    "carbs": 38,
+    "favorite": false
+  },
+  {
+    "id": "wendys-curry-bean-burger",
+    "restaurant": "Wendy's",
+    "item": "Curry Bean Burger",
+    "carbs": 57,
+    "favorite": false
+  },
+  {
+    "id": "wendys-spicy-chicken",
+    "restaurant": "Wendy's",
+    "item": "Spicy Chicken",
+    "carbs": 45,
+    "favorite": false
+  },
+  {
+    "id": "wendys-classic-chicken",
+    "restaurant": "Wendy's",
+    "item": "Classic Chicken",
+    "carbs": 46,
+    "favorite": false
+  },
+  {
+    "id": "wendys-grilled-chicken",
+    "restaurant": "Wendy's",
+    "item": "Grilled Chicken",
+    "carbs": 35,
+    "favorite": false
+  },
+  {
+    "id": "wendys-avocado-chicken-club",
+    "restaurant": "Wendy's",
+    "item": "Avocado Chicken Club",
+    "carbs": 47,
+    "favorite": false
+  },
+  {
+    "id": "wendys-4-pc-chicken-nuggets",
+    "restaurant": "Wendy's",
+    "item": "4 Pc Chicken Nuggets",
+    "carbs": 4.9,
+    "favorite": false
+  },
+  {
+    "id": "wendys-6-pc-chicken-nuggets",
+    "restaurant": "Wendy's",
+    "item": "6 Pc Chicken Nuggets",
+    "carbs": 7.4,
+    "favorite": false
+  },
+  {
+    "id": "wendys-10-pc-chicken-nuggets",
+    "restaurant": "Wendy's",
+    "item": "10 Pc Chicken Nuggets",
+    "carbs": 12,
+    "favorite": false
+  },
+  {
+    "id": "wendys-20-pc-chicken-nuggets",
+    "restaurant": "Wendy's",
+    "item": "20 Pc Chicken Nuggets",
+    "carbs": 25,
+    "favorite": false
+  },
+  {
+    "id": "wendys-4-pc-spicy-chicken-nuggets",
+    "restaurant": "Wendy's",
+    "item": "4 Pc Spicy Chicken Nuggets",
+    "carbs": 6.5,
+    "favorite": false
+  },
+  {
+    "id": "wendys-6-pc-spicy-chicken-nuggets",
+    "restaurant": "Wendy's",
+    "item": "6 Pc Spicy Chicken Nuggets",
+    "carbs": 9.8,
+    "favorite": false
+  },
+  {
+    "id": "wendys-10-pc-spicy-chicken-nuggets",
+    "restaurant": "Wendy's",
+    "item": "10 Pc Spicy Chicken Nuggets",
+    "carbs": 16,
+    "favorite": false
+  },
+  {
+    "id": "wendys-20-pc-spicy-chicken-nuggets",
+    "restaurant": "Wendy's",
+    "item": "20 Pc Spicy Chicken Nuggets",
+    "carbs": 33,
+    "favorite": false
+  },
+  {
+    "id": "wendys-spicy-chicken-mayo-wrap",
+    "restaurant": "Wendy's",
+    "item": "Spicy Chicken Mayo Wrap",
+    "carbs": 27,
+    "favorite": false
+  },
+  {
+    "id": "wendys-spicy-chicken-avocado-wrap",
+    "restaurant": "Wendy's",
+    "item": "Spicy Chicken Avocado Wrap",
+    "carbs": 27,
+    "favorite": false
+  },
+  {
+    "id": "wendys-crispy-chicken-curry-mayo-wrap",
+    "restaurant": "Wendy's",
+    "item": "Crispy Chicken Curry Mayo Wrap",
+    "carbs": 28,
+    "favorite": false
+  },
+  {
+    "id": "wendys-spicy-chicken-bbq-wrap",
+    "restaurant": "Wendy's",
+    "item": "Spicy Chicken BBQ Wrap",
+    "carbs": 32,
+    "favorite": false
+  },
+  {
+    "id": "wendys-cheeseburger-deluxe",
+    "restaurant": "Wendy's",
+    "item": "Cheeseburger Deluxe",
+    "carbs": 31,
+    "favorite": false
+  },
+  {
+    "id": "wendys-bacon-cheeseburger",
+    "restaurant": "Wendy's",
+    "item": "Bacon Cheeseburger",
+    "carbs": 30,
+    "favorite": false
+  },
+  {
+    "id": "wendys-caesar-chicken-salad",
+    "restaurant": "Wendy's",
+    "item": "Caesar Chicken Salad",
+    "carbs": 4.2,
+    "favorite": false
+  },
+  {
+    "id": "wendys-avocado-chicken-salad",
+    "restaurant": "Wendy's",
+    "item": "Avocado Chicken Salad",
+    "carbs": 7.5,
+    "favorite": false
+  },
+  {
+    "id": "wendys-value-fries",
+    "restaurant": "Wendy's",
+    "item": "Value Fries",
+    "carbs": 18,
+    "favorite": false
+  },
+  {
+    "id": "wendys-medium-fries",
+    "restaurant": "Wendy's",
+    "item": "Medium Fries",
+    "carbs": 22,
+    "favorite": false
+  },
+  {
+    "id": "wendys-large-fries",
+    "restaurant": "Wendy's",
+    "item": "Large Fries",
+    "carbs": 31,
+    "favorite": false
+  },
+  {
+    "id": "wendys-baconator-fries",
+    "restaurant": "Wendy's",
+    "item": "Baconator Fries",
+    "carbs": 25,
+    "favorite": false
+  },
+  {
+    "id": "wendys-cheesy-topped-fries",
+    "restaurant": "Wendy's",
+    "item": "Cheesy Topped Fries",
+    "carbs": 25,
+    "favorite": false
+  },
+  {
+    "id": "wendys-plain-potato",
+    "restaurant": "Wendy's",
+    "item": "Plain Potato",
+    "carbs": 39,
+    "favorite": false
+  },
+  {
+    "id": "wendys-bacon-cheese-potato",
+    "restaurant": "Wendy's",
+    "item": "Bacon & Cheese Potato",
+    "carbs": 40,
+    "favorite": false
+  },
+  {
+    "id": "wendys-sour-cream-and-chives-potato",
+    "restaurant": "Wendy's",
+    "item": "Sour Cream and Chives Potato",
+    "carbs": 39,
+    "favorite": false
+  },
+  {
+    "id": "wendys-chili",
+    "restaurant": "Wendy's",
+    "item": "Chili",
+    "carbs": 14,
+    "favorite": false
+  },
+  {
+    "id": "wendys-chili-cheese-fries",
+    "restaurant": "Wendy's",
+    "item": "Chili Cheese Fries",
+    "carbs": 32,
+    "favorite": false
+  },
+  {
+    "id": "wendys-chili-cheese-baked-potato",
+    "restaurant": "Wendy's",
+    "item": "Chili Cheese Baked Potato",
+    "carbs": 47,
+    "favorite": false
+  },
+  {
+    "id": "wendys-kid-s-cheeseburger",
+    "restaurant": "Wendy's",
+    "item": "Kid's Cheeseburger",
+    "carbs": 30,
+    "favorite": false
+  },
+  {
+    "id": "wendys-kid-s-hamburger",
+    "restaurant": "Wendy's",
+    "item": "Kid's Hamburger",
+    "carbs": 29,
+    "favorite": false
+  },
+  {
+    "id": "wendys-jr-vanilla-frosty",
+    "restaurant": "Wendy's",
+    "item": "Jr. Vanilla Frosty",
+    "carbs": 27,
+    "favorite": false
+  },
+  {
+    "id": "wendys-regular-vanilla-frosty",
+    "restaurant": "Wendy's",
+    "item": "Regular Vanilla Frosty",
+    "carbs": 47,
+    "favorite": false
+  },
+  {
+    "id": "wendys-large-vanilla-frosty",
+    "restaurant": "Wendy's",
+    "item": "Large Vanilla Frosty",
+    "carbs": 64,
+    "favorite": false
+  },
+  {
+    "id": "wendys-jr-chocolate-frosty",
+    "restaurant": "Wendy's",
+    "item": "Jr. Chocolate Frosty",
+    "carbs": 28,
+    "favorite": false
+  },
+  {
+    "id": "wendys-regular-chocolate-frosty",
+    "restaurant": "Wendy's",
+    "item": "Regular Chocolate Frosty",
+    "carbs": 48,
+    "favorite": false
+  },
+  {
+    "id": "wendys-large-chocolate-frosty",
+    "restaurant": "Wendy's",
+    "item": "Large Chocolate Frosty",
+    "carbs": 65,
+    "favorite": false
+  },
+  {
+    "id": "wendys-sausage-egg-cheese-croissant",
+    "restaurant": "Wendy's",
+    "item": "Sausage, Egg, & Cheese Croissant",
+    "carbs": 28,
+    "favorite": false
+  },
+  {
+    "id": "wendys-bacon-egg-cheese-croissant",
+    "restaurant": "Wendy's",
+    "item": "Bacon, Egg, & Cheese Croissant",
+    "carbs": 27,
+    "favorite": false
+  },
+  {
+    "id": "wendys-breakfast-baconator",
+    "restaurant": "Wendy's",
+    "item": "Breakfast Baconator",
+    "carbs": 39,
+    "favorite": false
+  },
+  {
+    "id": "wendys-egg-cheese-muffin",
+    "restaurant": "Wendy's",
+    "item": "Egg & Cheese Muffin",
+    "carbs": 27,
+    "favorite": false
+  },
+  {
+    "id": "wendys-sausage-cheese-muffin",
+    "restaurant": "Wendy's",
+    "item": "Sausage & Cheese Muffin",
+    "carbs": 28,
+    "favorite": false
+  },
+  {
+    "id": "wendys-bacon-cheese-muffin",
+    "restaurant": "Wendy's",
+    "item": "Bacon & Cheese Muffin",
+    "carbs": 27,
+    "favorite": false
+  },
+  {
+    "id": "wendys-small-breakfast-potatoes",
+    "restaurant": "Wendy's",
+    "item": "Small Breakfast Potatoes",
+    "carbs": 19,
+    "favorite": false
+  },
+  {
+    "id": "wendys-med-breakfast-potatoes",
+    "restaurant": "Wendy's",
+    "item": "Med Breakfast Potatoes",
+    "carbs": 27,
+    "favorite": false
+  },
+  {
+    "id": "wendys-large-breakfast-potatoes",
+    "restaurant": "Wendy's",
+    "item": "Large Breakfast Potatoes",
+    "carbs": 35,
+    "favorite": false
+  },
+  {
+    "id": "wendys-pain-au-chocolat",
+    "restaurant": "Wendy's",
+    "item": "Pain au Chocolat",
+    "carbs": 24,
+    "favorite": false
+  },
+  {
+    "id": "wendys-apple-slices",
+    "restaurant": "Wendy's",
+    "item": "Apple Slices",
+    "carbs": 9.3,
+    "favorite": false
+  },
+  {
+    "id": "wendys-sausage-breakfast-butty-hp",
+    "restaurant": "Wendy's",
+    "item": "Sausage Breakfast Butty - HP",
+    "carbs": 31,
+    "favorite": false
+  },
+  {
+    "id": "wendys-bacon-breakfast-butty-hp",
+    "restaurant": "Wendy's",
+    "item": "Bacon Breakfast Butty - HP",
+    "carbs": 30,
+    "favorite": false
+  },
+  {
+    "id": "wendys-sausage-breakfast-butty-heinz",
+    "restaurant": "Wendy's",
+    "item": "Sausage Breakfast Butty - Heinz",
+    "carbs": 30,
+    "favorite": false
+  },
+  {
+    "id": "wendys-bacon-breakfast-butty-heinz",
+    "restaurant": "Wendy's",
+    "item": "Bacon Breakfast Butty - Heinz",
+    "carbs": 29,
+    "favorite": false
+  },
+  {
+    "id": "wendys-vanilla-frostyccino-12oz",
+    "restaurant": "Wendy's",
+    "item": "Vanilla Frostyccino 12oz",
+    "carbs": 27,
+    "favorite": false
+  },
+  {
+    "id": "wendys-vanilla-frostyccino-16oz",
+    "restaurant": "Wendy's",
+    "item": "Vanilla Frostyccino 16oz",
+    "carbs": 29,
+    "favorite": false
+  },
+  {
+    "id": "wendys-chocolate-frostyccino-12oz",
+    "restaurant": "Wendy's",
+    "item": "Chocolate Frostyccino 12oz",
+    "carbs": 27,
+    "favorite": false
+  },
+  {
+    "id": "wendys-chocolate-frostyccino-16oz",
+    "restaurant": "Wendy's",
+    "item": "Chocolate Frostyccino 16oz",
+    "carbs": 29,
+    "favorite": false
+  }
+]

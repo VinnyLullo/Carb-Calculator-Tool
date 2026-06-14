@@ -9,6 +9,11 @@ const foodResults = document.getElementById("foodResults");
 const mealList = document.getElementById("mealList");
 const totalCarbsElement = document.getElementById("totalCarbs");
 const ratioInput = document.getElementById("ratioInput");
+ratioInput.value = localStorage.getItem("insulinRatio") || 8;
+
+ratioInput.addEventListener("input", () => {
+  localStorage.setItem("insulinRatio", ratioInput.value);
+});
 const calculateBtn = document.getElementById("calculateBtn");
 const insulinResult = document.getElementById("insulinResult");
 
@@ -52,6 +57,11 @@ restaurantSelect.addEventListener("change", renderSearchResults);
 function renderSearchResults() {
   const searchTerm = searchInput.value.toLowerCase().trim();
   const selectedRestaurant = restaurantSelect.value;
+
+  if (selectedRestaurant === "all") {
+  foodResults.innerHTML = "<p>Please select a restaurant to view food options.</p>";
+  return;
+}
 
   foodResults.innerHTML = "";
 

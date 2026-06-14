@@ -1,6 +1,8 @@
 [
   "./data/mcdonalds.json",
-  "./data/chickfila.json",
   "./data/dunkin.json",
-  "./data/culvers.json"
+  "./data/culvers.json",
+  "./data/chipotle.json",
+  "./data/popeyes.json",
+  "./data/wendys.json"
 ]

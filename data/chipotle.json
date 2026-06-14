@@ -1,0 +1,177 @@
+[
+  {
+    "id": "chipotle-flour-tortilla-burrito",
+    "restaurant": "Chipotle",
+    "item": "Flour Tortilla (Burrito)",
+    "carbs": 49.2,
+    "favorite": false
+  },
+  {
+    "id": "chipotle-flour-tortilla-taco",
+    "restaurant": "Chipotle",
+    "item": "Flour Tortilla (Taco)",
+    "carbs": 15.5,
+    "favorite": false
+  },
+  {
+    "id": "chipotle-white-rice",
+    "restaurant": "Chipotle",
+    "item": "Coriander-Lime White Rice",
+    "carbs": 41.5,
+    "favorite": false
+  },
+  {
+    "id": "chipotle-brown-rice",
+    "restaurant": "Chipotle",
+    "item": "Coriander-Lime Brown Rice",
+    "carbs": 32.8,
+    "favorite": false
+  },
+  {
+    "id": "chipotle-black-beans",
+    "restaurant": "Chipotle",
+    "item": "Black Beans",
+    "carbs": 4.9,
+    "favorite": false
+  },
+  {
+    "id": "chipotle-pinto-beans",
+    "restaurant": "Chipotle",
+    "item": "Pinto Beans",
+    "carbs": 6.2,
+    "favorite": false
+  },
+  {
+    "id": "chipotle-fajita-vegetables",
+    "restaurant": "Chipotle",
+    "item": "Fajita Vegetables",
+    "carbs": 2.1,
+    "favorite": false
+  },
+  {
+    "id": "chipotle-barbacoa",
+    "restaurant": "Chipotle",
+    "item": "Barbacoa",
+    "carbs": 1.0,
+    "favorite": false
+  },
+  {
+    "id": "chipotle-chicken",
+    "restaurant": "Chipotle",
+    "item": "Chicken",
+    "carbs": 1.0,
+    "favorite": false
+  },
+  {
+    "id": "chipotle-carnitas",
+    "restaurant": "Chipotle",
+    "item": "Carnitas",
+    "carbs": 1.0,
+    "favorite": false
+  },
+  {
+    "id": "chipotle-steak",
+    "restaurant": "Chipotle",
+    "item": "Steak",
+    "carbs": 1.0,
+    "favorite": false
+  },
+  {
+    "id": "chipotle-sofritas",
+    "restaurant": "Chipotle",
+    "item": "Sofritas",
+    "carbs": 3.0,
+    "favorite": false
+  },
+  {
+    "id": "chipotle-fresh-tomato-salsa",
+    "restaurant": "Chipotle",
+    "item": "Fresh Tomato Salsa",
+    "carbs": 1.1,
+    "favorite": false
+  },
+  {
+    "id": "chipotle-chili-corn-salsa",
+    "restaurant": "Chipotle",
+    "item": "Chilli-Corn Salsa",
+    "carbs": 5.9,
+    "favorite": false
+  },
+  {
+    "id": "chipotle-green-chili-salsa",
+    "restaurant": "Chipotle",
+    "item": "Roasted Tomato Green-Chilli Salsa",
+    "carbs": 1.0,
+    "favorite": false
+  },
+  {
+    "id": "chipotle-red-chili-salsa",
+    "restaurant": "Chipotle",
+    "item": "Roasted Tomato Red-Chilli Salsa",
+    "carbs": 1.4,
+    "favorite": false
+  },
+  {
+    "id": "chipotle-cheese",
+    "restaurant": "Chipotle",
+    "item": "Cheese",
+    "carbs": 0.1,
+    "favorite": false
+  },
+  {
+    "id": "chipotle-sour-cream",
+    "restaurant": "Chipotle",
+    "item": "Sour Cream",
+    "carbs": 1.4,
+    "favorite": false
+  },
+  {
+    "id": "chipotle-guacamole",
+    "restaurant": "Chipotle",
+    "item": "Guacamole",
+    "carbs": 2.8,
+    "favorite": false
+  },
+  {
+    "id": "chipotle-large-guacamole",
+    "restaurant": "Chipotle",
+    "item": "Guacamole (Large)",
+    "carbs": 5.6,
+    "favorite": false
+  },
+  {
+    "id": "chipotle-romaine-lettuce-salad",
+    "restaurant": "Chipotle",
+    "item": "Romaine Lettuce (Salad)",
+    "carbs": 0,
+    "favorite": false
+  },
+  {
+    "id": "chipotle-romaine-lettuce-topping",
+    "restaurant": "Chipotle",
+    "item": "Romaine Lettuce (Topping)",
+    "carbs": 0,
+    "favorite": false
+  },
+  {
+    "id": "chipotle-chips-regular",
+    "restaurant": "Chipotle",
+    "item": "Chips (Regular)",
+    "carbs": 54.1,
+    "favorite": false
+  },
+  {
+    "id": "chipotle-chips-large",
+    "restaurant": "Chipotle",
+    "item": "Chips (Large)",
+    "carbs": 108.2,
+    "favorite": false
+  },
+  {
+    "id": "chipotle-honey-vinaigrette",
+    "restaurant": "Chipotle",
+    "item": "Chipotle Honey Vinaigrette",
+    "carbs": 13.1,
+    "favorite": false
+  }
+]
