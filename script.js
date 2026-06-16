@@ -13,8 +13,8 @@ ratioInput.value = localStorage.getItem("insulinRatio") || 8;
 
 ratioInput.addEventListener("input", () => {
   localStorage.setItem("insulinRatio", ratioInput.value);
+  updateInsulinCalculation();
 });
-const calculateBtn = document.getElementById("calculateBtn");
 const insulinResult = document.getElementById("insulinResult");
 
 const favoritesSection = document.createElement("div");
@@ -158,6 +158,7 @@ function renderMeal() {
   });
 
   totalCarbsElement.textContent = totalCarbs;
+  updateInsulinCalculation();
 }
 
 function removeFromMeal(index) {
@@ -165,17 +166,6 @@ function removeFromMeal(index) {
   renderMeal();
 }
 
-calculateBtn.addEventListener("click", () => {
-  const totalCarbs = Number(totalCarbsElement.textContent);
-  const ratio = Number(ratioInput.value);
-
-  if (!ratio || ratio <= 0) {
-    alert("Please enter a valid insulin ratio.");
-    return;
-  }
-
-  insulinResult.textContent = (totalCarbs / ratio).toFixed(1);
-});
 
 function saveCurrentMeal() {
   if (meal.length === 0) {
@@ -232,4 +222,15 @@ function deleteSavedMeal(index) {
   savedMeals.splice(index, 1);
   localStorage.setItem("savedMeals", JSON.stringify(savedMeals));
   renderSavedMeals();
+}
+function updateInsulinCalculation() {
+  const totalCarbs = Number(totalCarbsElement.textContent);
+  const ratio = Number(ratioInput.value);
+
+  if (!ratio || ratio <= 0) {
+    insulinResult.textContent = "0";
+    return;
+  }
+
+  insulinResult.textContent = (totalCarbs / ratio).toFixed(1);
 }
