@@ -9,13 +9,16 @@ const foodResults = document.getElementById("foodResults");
 const mealList = document.getElementById("mealList");
 const totalCarbsElement = document.getElementById("totalCarbs");
 const ratioInput = document.getElementById("ratioInput");
+const insulinResult = document.getElementById("insulinResult");
+const doseCarbs = document.getElementById("doseCarbs");
+const doseRatio = document.getElementById("doseRatio");
+
 ratioInput.value = localStorage.getItem("insulinRatio") || 8;
 
 ratioInput.addEventListener("input", () => {
   localStorage.setItem("insulinRatio", ratioInput.value);
   updateInsulinCalculation();
 });
-const insulinResult = document.getElementById("insulinResult");
 
 const favoritesSection = document.createElement("div");
 const savedMealsSection = document.createElement("div");
@@ -32,6 +35,7 @@ fetch("./data/restaurants.json")
     renderSearchResults();
     renderFavorites();
     renderSavedMeals();
+    updateInsulinCalculation();
   })
   .catch(error => {
     console.error("Error loading food data:", error);
@@ -39,7 +43,7 @@ fetch("./data/restaurants.json")
   });
 
 function populateRestaurantDropdown() {
-  restaurantSelect.innerHTML = `<option value="all">All Restaurants</option>`;
+  restaurantSelect.innerHTML = `<option value="all">Select Restaurant</option>`;
 
   const restaurants = [...new Set(foods.map(food => food.restaurant))].sort();
 
@@ -58,16 +62,16 @@ function renderSearchResults() {
   const searchTerm = searchInput.value.toLowerCase().trim();
   const selectedRestaurant = restaurantSelect.value;
 
-  if (selectedRestaurant === "all") {
-  foodResults.innerHTML = "<p>Please select a restaurant to view food options.</p>";
-  return;
-}
-
   foodResults.innerHTML = "";
+
+  if (selectedRestaurant === "all") {
+    foodResults.innerHTML = "<p>Please select a restaurant to view food options.</p>";
+    return;
+  }
 
   const filteredFoods = foods.filter(food => {
     const matchesSearch = searchTerm === "" || food.item.toLowerCase().includes(searchTerm);
-    const matchesRestaurant = selectedRestaurant === "all" || food.restaurant === selectedRestaurant;
+    const matchesRestaurant = food.restaurant === selectedRestaurant;
 
     return matchesSearch && matchesRestaurant;
   });
@@ -166,7 +170,6 @@ function removeFromMeal(index) {
   renderMeal();
 }
 
-
 function saveCurrentMeal() {
   if (meal.length === 0) {
     alert("Add items before saving a meal.");
@@ -223,9 +226,13 @@ function deleteSavedMeal(index) {
   localStorage.setItem("savedMeals", JSON.stringify(savedMeals));
   renderSavedMeals();
 }
+
 function updateInsulinCalculation() {
   const totalCarbs = Number(totalCarbsElement.textContent);
   const ratio = Number(ratioInput.value);
+
+  doseCarbs.textContent = totalCarbs;
+  doseRatio.textContent = ratio || 0;
 
   if (!ratio || ratio <= 0) {
     insulinResult.textContent = "0";

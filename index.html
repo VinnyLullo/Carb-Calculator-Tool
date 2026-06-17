@@ -1,42 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carb Calculator Tool</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carb Calculator Tool</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="container">
-    <h1>Fast Food Carb Calculator</h1>
+  <h1>Fast Food Carb Calculator</h1>
 
-   <label>Restaurant</label>
-<select id="restaurantSelect">
-    <option value="all">All Restaurants</option>
-</select>
+  <label>Restaurant</label>
+  <select id="restaurantSelect">
+    <option value="all">Select Restaurant</option>
+  </select>
 
-<label>Search Food</label>
-<input type="text" id="searchInput" placeholder="Type food name...">
+  <label>Search Food</label>
+  <input type="text" id="searchInput" placeholder="Type food name...">
 
-    <div id="foodResults"></div>
+  <div id="foodResults"></div>
 
-    <h2>Meal</h2>
-    <div id="mealList"></div>
+  <h2>Meal</h2>
+  <div id="mealList"></div>
 
-    <h3>Total Carbs: <span id="totalCarbs">0</span> g</h3>
+  <h3>Total Carbs: <span id="totalCarbs">0</span> g</h3>
 
-    <hr>
+  <hr>
 
-    <label>Insulin Ratio (grams per 1 unit)</label>
-    <input type="number" id="ratioInput" value="10">
+  <label>Insulin Ratio (grams per 1 unit)</label>
+  <input type="number" id="ratioInput" value="8">
 
-    <h3>Estimated Insulin: <span id="insulinResult">0</span> units</h3>
+  <div class="dose-card">
+    <div class="dose-label">Estimated Insulin</div>
+    <div class="dose-main">
+      <span id="insulinResult">0</span>
+      <span class="dose-unit">units</span>
+    </div>
+    <div class="dose-subtext">
+      Based on <span id="doseCarbs">0</span>g carbs at a 1:<span id="doseRatio">8</span> ratio
+    </div>
+  </div>
 
-    <p class="disclaimer">
-        For carb counting assistance only. Always verify insulin dosing using
-        your doctor's recommendations and pump settings.
-    </p>
+  <p class="disclaimer">
+    For carb counting assistance only. Always verify insulin dosing using
+    your doctor's recommendations and pump settings.
+  </p>
 </div>
 
 <script src="script.js"></script>
